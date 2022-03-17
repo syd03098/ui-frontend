@@ -1,0 +1,26 @@
+{
+  "jsc": {
+    "transform": {
+      "react": {
+        "runtime": "automatic",
+        "throwIfNamespace": true,
+        "importSource": "@emotion/react"
+      }
+    },
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": false,
+      "dynamicImport": false
+    }
+  },
+  "env": {
+    "targets": ">= 1%, not dead",
+    "mode": "entry",
+    "coreJs": 3
+  },
+  "minify": true
+}
+
+
+
